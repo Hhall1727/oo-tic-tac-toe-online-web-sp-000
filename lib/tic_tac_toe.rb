@@ -23,5 +23,17 @@ def input_to_index
   
 end 
 
+def move
+  
+end 
+
+def position_taken?
+  
+end 
+
+def valid_move?
+  
+end 
+
 
 end 
