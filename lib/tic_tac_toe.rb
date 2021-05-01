@@ -48,11 +48,24 @@ def turn_count
 end 
 
 def current_player
-  
+  if turn_count % 2 == 0 
+    "X"
+  else 
+    "O"
+  end 
 end 
 
-def turn_count
-  
+def turn
+  puts "Please enter 1-9:"
+  input = get.strip 
+  index = input_to_index(input)
+  character = current_player
+  if valid_move?(index)
+    move(index, character)
+    display_board
+  else 
+    turn 
+  end 
 end 
 
 def won?
