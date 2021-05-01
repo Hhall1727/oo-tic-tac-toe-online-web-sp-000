@@ -35,5 +35,17 @@ def valid_move?
   
 end 
 
+def turn_count
+  
+end 
+
+def current_player
+  
+end 
+
+def turn_count
+  
+end 
+
 
 end 
