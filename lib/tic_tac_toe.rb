@@ -105,3 +105,14 @@ def winner
   end 
 end 
 end 
+
+def play 
+  while over? == false 
+     turn 
+   end 
+   if won?
+     puts "Congratulations #{winner}!"
+    elsif draw?
+     puts "Cat's game!"
+  end 
+end 
