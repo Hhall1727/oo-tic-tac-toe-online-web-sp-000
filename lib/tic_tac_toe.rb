@@ -59,5 +59,11 @@ def draw?
   
 end 
 
-def
+def over?
+  
+end 
+
+def winner
+  
+end 
 end 
