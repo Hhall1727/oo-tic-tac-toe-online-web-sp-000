@@ -106,7 +106,6 @@ def winner
 end 
  
 
-private
 def play 
   while over? == false do
      turn 
