@@ -15,4 +15,13 @@ class TicTacToe
       [0,4,8]
       ]
 
+def display_board
+  
+end 
+
+def input_to_index
+  
+end 
+
+
 end 
