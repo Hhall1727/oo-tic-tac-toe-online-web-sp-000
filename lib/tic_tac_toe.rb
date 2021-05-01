@@ -47,5 +47,17 @@ def turn_count
   
 end 
 
+def won?
+  
+end 
 
+def full?
+  
+end 
+
+def draw?
+  
+end 
+
+def
 end 
